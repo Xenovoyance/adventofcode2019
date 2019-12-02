@@ -16,7 +16,6 @@ def fuelneeded(startingFuel):
 
 
 def additionalfuelneeded(startingFuel):
-    securityswitch = 0
     totalfuel = 0
 
     startingFuel = fuelneeded(startingFuel)
@@ -25,9 +24,6 @@ def additionalfuelneeded(startingFuel):
         securityswitch += 1
         totalfuel += startingFuel
         startingFuel = fuelneeded(startingFuel)
-
-        if securityswitch > 25:
-            break
     return totalfuel
 
 
