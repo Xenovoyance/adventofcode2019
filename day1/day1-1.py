@@ -42,5 +42,5 @@ with open(input) as blockstream:
         totalFuel1 += newFuel
         totalFuel2 += newFuel + additionalfuelneeded(newFuel)
 
-print("P1: Total fuel needed:", totalFuel1)
-print("P2: Total fuel needed:", totalFuel2)
+print("P1: Total fuel:", totalFuel1)
+print("P2: Total fuel:", totalFuel2)
