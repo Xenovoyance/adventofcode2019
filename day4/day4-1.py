@@ -1,10 +1,7 @@
 #!/usr/local/bin/python3
 
 input_min = 130254
-# input_max = 678275
-
 input_max = 678275
-
 correct_passwords = []
 
 
